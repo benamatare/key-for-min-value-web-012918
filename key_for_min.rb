@@ -3,8 +3,8 @@
 
 
 def key_for_min_value(name_hash)
-    holder_key = 0
-    holder_value = 0
+    holder_key = nil
+    holder_value = nil
   name_hash.select do |key, value|
     if holder_value == 0
       holder_value = value
